@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(150, 162, 173);">
+    <h1 style="background-color:rgb(187, 225, 227);  padding: 2px;color:rgb(4, 4, 8) ;font-size:15px;">Lihi's Hotel - The perfect vacation</h1>
+</span>  
+
+<nav class="crumbs">
+
+     <a href="HomePage.html">Back To Home Page</a>
+ 
+</nav>
+<span ><img style="width: 11cm; height: 3cm;" src="../static/ContactIm.jpg" alt="">
+</span>
+<br>
+<br>
+        <span id="header" style="border:4px solid rgb(248, 241, 245) ;padding: 6px;text-align:center;font-size:34px;font-weight : bold ;">
+            Lihi's Hotel - Contact Page 
+            </span>
+                <br>
+                <span style="padding: 10px; margin:  10px;"> <p>Today's Date: <span id="datetime"></span></p><script>var dt = new Date();
+                    document.getElementById("datetime").innerHTML=dt.toLocaleDateString();</script>
+                </span>
+            </div> 
+
+    
+    <form action="URL">
+
+        <label for="Full Name">Full Name</label><br>
+        <input type="text" id="Full Name" name="Full Name" ><br>
+        <label for="">Email</label> <br>
+        <input type="email" id="email" name="email"><br>
+        <label for="">Phone Number</label> <br>
+        <input type="tel" id="tel" name="tel"><br>
+        <label for="Chek in Date">Chek in Date</label><br>
+        <input type="date" id="Chek in Date" name="Chek in Date" ><br>
+        <label for="Chek in Date">Chek Out Date</label><br>
+        <input type="date" id="Chek in Date" name="Chek in Date" ><br>
+        <label for="urgency">urgency (between 0 and 10):</label>
+            <input type="range" id="urgency" name="urgency" min="0" max="10">
+        <br>
+        <br>
+        <input type="checkbox" id="agree" name="agree" >
+        <label for="agree"> I agree to get marketing mailing </label>
+        <br>
+        <button onclick="displayResult()">Send</button><br>
+        <br>
+        
+        <form action=""></form>
+       
+</body>
+</html>

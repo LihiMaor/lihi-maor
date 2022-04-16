@@ -1,0 +1,127 @@
+:root {
+    
+    --lightBrowon:	rgb(158, 133, 135);  
+    --darkGray: rgb(65, 72, 79);
+    --turquoise : rgb(90, 170, 176)  ;
+    
+}
+
+
+@font-face  {
+    font-family: HotalFont1;
+    src: url(BeauRivage-Regular.ttf);
+    }
+
+    @font-face  {
+        font-family: HotalFont2;
+        src: url(GentiumBasic-Italic.ttf);
+        } 
+
+
+    
+
+    body {
+        background-image: url(../static/BAD3.jpg);
+        background-repeat: no-repeat;
+        background-position:  
+     
+    
+    }
+
+a {
+    font-size: 20px;
+color:  (var(--DarkPurple));
+}
+      
+
+    
+      
+      #headerh1 {
+          
+        color:var(--darkGray);
+        font-size: 3rem;
+        line-height: 1;
+        margin: 0;
+        padding: 4;
+        text-align: center;
+        font-family: HotalFont2;
+        
+      }
+      
+
+      #headerh2 {
+        color:var(--turquoise);
+        font-size: 2rem;
+        line-height: 1;
+        margin: 0;
+        padding: 4;
+        text-align: center;
+        font-family: HotalFont2;
+       
+        
+      }
+
+      #sidebar { 
+        float: right; 
+        width: 100px; 
+        background: rgb(235, 235, 235);
+        padding: 15px 10px 15px 20px; 
+        font-family: HotalFont1;
+    }
+
+    h3 { 
+    color:var(--turquoise);
+    font-size: 40px;
+    text-align: center;
+    }
+
+ img {
+    border-radius: 10%;
+    border-color: black;
+    border-width: 3px;
+    align-items: center;
+    border: 1px solid black;
+
+ }
+ 
+#details{
+    font-weight: bold;
+    line-height: 2;
+
+font-family: HotalFont2;
+margin-top: 5%;
+align-items: center ;
+text-align: center;
+text-overflow: initial;
+}
+
+
+input {
+    width: 15%;
+    background-color: #b8b1ac;
+    color: white;
+  }
+
+ #agree {
+    width: 2%;
+    background-color: #b8b1ac;
+    color: white;
+  }
+
+label {
+    text-align: center;
+    text-transform:uppercase;
+    text-align: center;
+text-overflow: initial;
+
+}
+
+#submit1 {
+    width: 5%;
+    background-color: VAR(--darkGray);
+
+}
+
+
+ 
+    

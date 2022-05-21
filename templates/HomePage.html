@@ -1,43 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="../static/HotelJS.js"></script>
+  <link href="../static/CSShotal.css" rel="stylesheet" />
+  <script defer src="../static/HotelJS.js"></script>
 
-
-    <link href="../static/CSShotal.css" rel="stylesheet" />
 
 
 </head>
+
 <body>
 
-<nav>    <h1 id="headerh1">LOLA HOTEL </h1></nav>
 
- 
-    <div id="sidebar"> 
-        <h3>info</h3> 
-        <p>Adress : Web Street 103 ,Paris ,  France  </p> 
-        <p>Email : lihimao@post.bgu.ac.il</p> 
-        <p>Tel :
-             +972-08-1000123  </p> 
+  <nav>
+    <ul id="menue">
+      <li><a href="HomePage.html">Home</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-             <li><a href="Contact.html">Contact</a></li>
-       
-          </div> 
-          
-          <span ><img style="width: 5cm; height: 5cm; position: relative; top: 2cm; left: 6cm;" src="../static/VIEW.jpg" alt="">
-          </span>
-          <span ><img style="width: 5cm; height: 5cm;position: relative; top: 2cm; left: 9cm; " src="../static/POOL.jpg" alt="">
-          </span>
-          <span ><img style="width: 5cm; height: 5cm;position: relative; top: 2cm; left: 12cm; " src="../static/BATHROOM.jpg" alt="">
-          </span>
+  <div id="header">
+    <h1 id="headerh1">LOLA HOTEL </h1>
+  </div>
 
+
+
+
+
+  <div id="center">
+
+    <span id="img1" class="hotelimg"> <img src="../static/VIEW.jpg" alt="">
+      <div class="TitleForimg">
+        <P> Parisian balcony view</P>
+      </div>
+    </span>
+    <span id="img2" class="hotelimg"><img src="../static/POOL.jpg" alt="">
+      <div class="TitleForimg">
+        <P> Roof Top Pool</P>
+      </div>
+    </span>
+    <span id="img3" class="hotelimg"><img src="../static/BATHROOM.jpg" alt="">
+      <div class="TitleForimg">
+        <P> Luxurious bathrooms </P>
+      </div>
+    </span>
+    <span id="img4" class="hotelimg"><img src="../static/BAD5.jpg" alt="">
+      <div class="TitleForimg">
+        <P>Presidential Suite</P>
+      </div>
+    </span>
+    <span id="img5" class="hotelimg"><img src="../static/DINNER.jpg" alt="">
+      <div class="TitleForimg">
+        <P> Spectacular dining room</P>
+      </div>
+    </span>
+    <span id="img6" class="hotelimg"><img src="../static/BAD4.jpg" alt="">
+      <div class="TitleForimg">
+        <P> Decorated rooms</P>
+      </div>
+    </span>
+
+    <div class="dropdown">
+
+     
+      <button id="infobtn" class="dropbtn" onclick="ShowOn()">More Info</button>
+      <div id="myDropdown" class="dropdown-content">
+        <p> Adress : </p>
+        <p>Web Street 103 ,Paris , France </p>
+        <br>
+        <p>Email : </p>
+        <p> lihimao@post.bgu.ac.il</p>
+        <br>
+        <p>Tel :</p>
+        <p> +972-08-1000123 </p>
+      </div>
 
     </div>
+    </span>
 
 
-    
+
+
+  </div>
+
+
+
+
+
 </body>
+
 </html>
